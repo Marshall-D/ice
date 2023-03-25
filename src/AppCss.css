@@ -1,0 +1,262 @@
+.accueil {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 1.42857143;
+  background-color: #fff;
+  font-size: 1.4em;
+  font-family: 'Arial', sans-serif;
+  color: #43484d;
+  word-wrap: break-word;
+
+}
+
+
+
+.nav {
+
+  background: url('bg.jpeg');
+  height: 154px;
+  background-position: 0 102px;
+}
+
+.row::before{
+  content: " ";
+  display: table;
+}
+.container::after{
+  content: " ";
+    display: table;
+    clear: both;
+}
+.row::after{
+
+  content: " ";
+    display: table;
+}
+.container::before{
+  content: " ";
+  display: table;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 760px;
+  
+}
+
+
+.skip {
+
+  text-indent: -10000em;
+  font-size: 0 !important;
+  height: 0 !important;
+  display: block;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.skipLi {
+
+  font-size: 0 !important;
+
+}
+
+.skipA {
+
+  font-size: 0 !important;
+  background: 0 0;
+  text-decoration: none;
+
+}
+
+
+
+.topHeader {
+
+  height: 2.6em;
+  background: #FFF;
+}
+
+
+
+
+
+
+.row {
+
+  margin-left: -15px;
+  margin-right: -15px;
+ 
+}
+
+
+
+
+
+.mainmenu {
+
+  display: block;
+  position: relative;
+  min-height: 1px;
+  float: left;
+  width: 100%;
+}
+
+
+
+
+
+
+.col-md-3 {
+
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: none !important;
+}
+
+.logo {
+
+  box-sizing: border-box;
+
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  width: 25%;
+  padding-top: 0px;
+  height: 102px;
+}
+
+.access {
+
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  width: 41.6667%;
+}
+
+
+.logoA {
+  background: 0 0;
+  text-decoration: none;
+}
+
+.profilsMenu {
+
+  display: block;
+  position: relative;
+  min-height: 1px;
+  float: left;
+  width: 75%;
+  text-align: right;
+  box-sizing: border-box;
+
+padding-left: 15px;
+padding-right: 15px;
+float: left;
+width: 75%;
+text-align: right;
+  
+}
+
+
+
+
+
+
+.collapse {
+
+  padding: 0;
+  margin: 55px 0 0;
+  font-size: 13px;
+  margin-top: 38px;
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0px;
+  overflow: visible !important;
+  font-family: Oregon;
+  box-sizing: border-box;
+
+}
+
+.collapse2 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: table !important;
+  height: auto !important;
+  padding-bottom: 0px;
+  overflow: visible !important;
+  font-family: Oregon;
+  background: rgba(52, 142, 209, 0.38) none repeat scroll 0% 0%;
+}
+
+
+
+
+
+
+
+
+.collapseA {
+
+  background: 0 0;
+  text-decoration: none;
+}
+
+.activeHome {
+  display: table-cell;
+  margin-right: 0;
+  width: 40px;
+
+
+}
+
+.aSelected{
+color: #ffffff;
+text-transform: capitalize;
+text-align: center;
+line-height: 2.9em;
+font-family: arial;
+font-size: 16px;
+letter-spacing: 0.04em;
+text-indent: -10000em;
+background: url('http://researchfora.com/RESEARCHFORA-INCLUDE/images/mainMenu_home.png') no-repeat center center;
+border-top: 1px solid transparent !important;
+text-decoration: none;
+background-color: #002c66;
+width: 41px;
+}
+.aNotSelected{
+background: 0 0;
+text-decoration: none;
+color: #ffffff;
+text-transform: capitalize;
+text-align: center;
+line-height: 2.9em;
+font-family: arial;
+font-size: 16px;
+padding: 0 10px;
+letter-spacing: 0.04em;
+}
+
+
+
+
+
+.nonActive{
+  display: table-cell;
+margin-right: 0;
+position: relative;
+}
+
+
