@@ -19,6 +19,8 @@
   background: url('bg.jpeg');
   height: 154px;
   background-position: 0 102px;
+  box-sizing: border-box;
+
 }
 
 .row::before{
@@ -45,6 +47,8 @@
   padding-left: 15px;
   padding-right: 15px;
   width: 760px;
+  box-sizing: border-box;
+
   
 }
 
@@ -90,6 +94,8 @@
 
   margin-left: -15px;
   margin-right: -15px;
+  box-sizing: border-box;
+
  
 }
 
@@ -194,6 +200,8 @@ text-align: right;
   width: 100%;
   display: table !important;
   height: auto !important;
+  box-sizing: border-box;
+
   padding-bottom: 0px;
   overflow: visible !important;
   font-family: Oregon;
@@ -217,6 +225,9 @@ text-align: right;
   display: table-cell;
   margin-right: 0;
   width: 40px;
+  box-sizing: border-box;
+
+position: relative;
 
 
 }
@@ -235,6 +246,9 @@ border-top: 1px solid transparent !important;
 text-decoration: none;
 background-color: #002c66;
 width: 41px;
+box-sizing: border-box;
+
+padding: 0;
 }
 .aNotSelected{
 background: 0 0;
@@ -247,6 +261,8 @@ font-family: arial;
 font-size: 16px;
 padding: 0 10px;
 letter-spacing: 0.04em;
+box-sizing: border-box;
+display: block;
 }
 
 
@@ -257,6 +273,8 @@ letter-spacing: 0.04em;
   display: table-cell;
 margin-right: 0;
 position: relative;
+box-sizing: border-box;
+
 }
 
 
