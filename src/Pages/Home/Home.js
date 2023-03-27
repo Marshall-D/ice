@@ -7,21 +7,20 @@ import '../../AppCss.css';
 function Home() {
     return (
       <div
-        id="main"
+        className="main"
         
         style={{ paddingBottom: "25px", position: "relative" }}
-        className="container"
       >
         <div className="row">
           <section
             role="main"
-            className="content col-md-12 col-sm-12 col-xs-12"
+            className="contentCol"
           >
-            <div className="row">
+            <div className="row2">
               <div className="col-md-9">
-                <div id="c128283" className="csc-default">
+                <div >
                   <div className="agenda-home">
-                    <h2>Home</h2>
+                    <h2 className='agendaHomeH2'>Home</h2>
                     <p>
                       Welcome to the Official Website of the&nbsp;{" "}
                       <strong>
@@ -89,7 +88,7 @@ function Home() {
                       </strong>
                       <hr></hr>
                       <hr></hr>
-                      <h2>Important Dates :</h2>
+                      <h2 className='agendaHomeH2'>Important Dates :</h2>
                       <HomeTable></HomeTable>
                       <HomeDIv></HomeDIv>
                     </div>
@@ -97,7 +96,10 @@ function Home() {
                 </div>
               </div>
               <RelatedConference></RelatedConference>
+              
             </div>
+            <hr></hr>
+
             <div id="c128283" className="csc-default">
               <div className="actus-home">
                 <h2></h2>

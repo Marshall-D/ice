@@ -3,7 +3,7 @@ import '../AppCss.css';
 
 function Carousel() {
     return (
-      <div id="carrousel">
+      <div className="carrousel">
         <div className="container">
           <h2
             style={{

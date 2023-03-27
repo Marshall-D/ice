@@ -1,17 +1,18 @@
+import '../../AppCss.css';
 
 function HomeTable() {
     return (
-      <table width="100%" cellspacing="0" cellpadding="0">
+          <table className="table" style={{width:"100%", cellspacing:"0", cellpadding:"0"}}>
         <tbody>
           <tr>
-            <td style={{paddingRight:"20px", verticalAlign:"top"}}>
-              <img src="calendar1.jpg" width="226" height="144" />
+            <td className="td" style={{paddingRight:"20px", verticalAlign:"top"}}>
+              <img src="https://ice-bm.space/calendar1.jpg" width="226" height="144" />
             </td>
             <td>
-              <table width="90%" cellspacing="0" cellpadding="10" border="1">
-                <tbody>
+              <table className="table" width="90%" cellspacing="0" cellpadding="10" border="1">
+                <tbody style={{boxSizing: "border-box"}}>
                   <tr>
-                    <td style={{paddingLeft:"10px"}}>
+                    <td className="td"  style={{paddingLeft:"10px"}}>
                       <p>Abstract/ Full Paper submission deadline</p>
                     </td>
                     <td style={{paddingLeft:"10px"}}>
