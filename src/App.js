@@ -3,6 +3,7 @@ import Carousel from './components/Carousel';
 import Home from './Pages/Home/Home';
 import './AppCss.css';
 import CallForPaper from './Pages/CallForPaper/CallForPaper';
+import Committee from './Pages/Committee/Committee';
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
         <Header></Header>
         <Carousel></Carousel>
         {/* <Home></Home> */}
-        <CallForPaper></CallForPaper>
+        {/* <CallForPaper></CallForPaper> */}
+        <Committee></Committee>
       </body>
     );
 }

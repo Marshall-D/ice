@@ -1,7 +1,7 @@
-import Footer from '../../components/Footer';
 import HomeDIv from './HomeDiv';
 import HomeTable from './HomeTable';
-import RelatedConference from './RelatedConference';
+import Footer from '../../components/Footer';
+import RelatedConference from '../../components/RelatedConference';
 import '../../AppCss.css';
 
 function Home() {

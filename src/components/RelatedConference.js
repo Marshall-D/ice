@@ -1,4 +1,4 @@
-import '../../AppCss.css';
+import '../AppCss.css';
 
 function RelatedConference() {
     return (
