@@ -4,6 +4,7 @@ import Home from './Pages/Home/Home';
 import './AppCss.css';
 import CallForPaper from './Pages/CallForPaper/CallForPaper';
 import Committee from './Pages/Committee/Committee';
+import PaperSubmission from './Pages/PaperSubmission/PaperSubmission';
 
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
         <Carousel></Carousel>
         {/* <Home></Home> */}
         {/* <CallForPaper></CallForPaper> */}
-        <Committee></Committee>
+        {/* <Committee></Committee> */}
+        <PaperSubmission></PaperSubmission>
       </body>
     );
 }
