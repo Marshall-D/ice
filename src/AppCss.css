@@ -490,3 +490,9 @@ width: 100%;
 margin-bottom: 0;
 
 }
+.activeHome:hover {
+  background-color: rgb(15, 19, 226);
+}
+.nonActive:hover {
+  background-color: rgb(15, 19, 226);
+}

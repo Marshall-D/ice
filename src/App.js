@@ -7,7 +7,10 @@ import Committee from './Pages/Committee/Committee';
 import Venue from './Pages/Venue/Venue';
 import PaperSubmission from './Pages/PaperSubmission/PaperSubmission';
 import Payment from './Pages/Payment/Payment';
-
+import ContactUs from './Pages/ContactUs/ContactUs';
+import MainPage from './components/Basic';
+import {createBrowserRouter, RouterProvider} from "react-router-dom"
+import { Routes, Route } from "react-router-dom";
 
 
 function App() {
@@ -26,12 +29,26 @@ function App() {
         </ul>
         <Header></Header>
         <Carousel></Carousel>
+        <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/call" element={<CallForPaper />} />
+      <Route path="/committee" element={<Committee />} />
+      <Route path="/paperSubmission" element={<PaperSubmission />} />
+      <Route path="/payment" element={<Payment />} />
+      <Route path="/venue" element={<Venue />} />
+      <Route path="/contact" element={<ContactUs />} />
+      </Routes>
+
+
         {/* <Home></Home> */}
         {/* <CallForPaper></CallForPaper> */}
         {/* <Committee></Committee> */}
         {/* <PaperSubmission></PaperSubmission> */}
         {/* <Venue></Venue> */}
-        <Payment></Payment>
+        {/* <Payment></Payment> */}
+        {/* <ContactUs></ContactUs> */}
+        
+   
       </body>
     );
 }

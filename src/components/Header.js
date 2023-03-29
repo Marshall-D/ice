@@ -1,4 +1,6 @@
 import '../AppCss.css';
+import { Link, NavLink } from 'react-router-dom';
+
 
 function Header() {
     return (
@@ -52,16 +54,20 @@ function Header() {
                 
                 className="mainmenu"
               >
+            {/* <Link to="reg" className="burger_menu2">Registration</Link> */}
                 <ul className="collapse2">
                   <li className="activeHome ">
-                    <a href="ICEBM-2023.htm" className="aSelected">
+                  <Link to="/" className="aSelected">Home</Link>
+                    {/* <a href="ICEBM-2023.htm" className="aSelected">
                       Home
-                    </a>
+                    </a> */}
                   </li>
 
                   <li className='nonActive'>
-                    <a className="aNotSelected" 
-                    href="callforpaperr.htm">Call For Paper</a>
+                  <Link to="call" className="aNotSelected">Call For Paper</Link>
+
+                    {/* <a className="aNotSelected" 
+                    href="callforpaperr.htm">Call For Paper</a> */}
                     {/* <ul>
                       <li className="ICEBM-2023.htm">Home</li>
                       <li>
@@ -70,8 +76,8 @@ function Header() {
                     </ul> */}
                   </li>
                   <li className='nonActive'>
-                    <a className="aNotSelected" 
-                     href="committee.htm">Committee</a>
+                    <Link to="committee" className="aNotSelected" 
+                     href="committee.htm">Committee</Link>
                     {/* <ul>
                       <li className="hidden-md hidden-lg">Home</li>
                       <li>
@@ -80,8 +86,8 @@ function Header() {
                     </ul> */}
                   </li>
                   <li className='nonActive'>
-                    <a className="aNotSelected" 
-                    href="papersubmission.htm">Paper Submisison</a>
+                    <Link to="paperSubmission" className="aNotSelected" 
+                    href="papersubmission.htm">Paper Submisison</Link>
                     {/* <ul>
                       <li className="hidden-md hidden-lg">Home</li>
                       <li>
@@ -91,8 +97,8 @@ function Header() {
                   </li>
 
                   <li className='nonActive'>
-                    <a className="aNotSelected"  
-                    href="venue.htm">Venue</a>
+                    <Link to="venue" className="aNotSelected"  
+                    href="venue.htm">Venue</Link>
                     {/* <ul>
                       <li className="hidden-md hidden-lg">Home</li>
                       <li>
@@ -101,8 +107,8 @@ function Header() {
                     </ul> */}
                   </li>
                   <li className='nonActive'>
-                    <a className="aNotSelected" 
-                     href="Registrationandfee.htm">Registration and Payment</a>
+                    <Link to="payment" className="aNotSelected" 
+                     href="Registrationandfee.htm">Registration and Payment</Link>
                     {/* <ul>
                       <li className="hidden-md hidden-lg">Home</li>
                       <li>
@@ -134,7 +140,7 @@ function Header() {
                   </li> */}
 
                   <li className='nonActive'>
-                    <a className="aNotSelected"  href="contact.htm">Contact Us</a>
+                    <Link to="contact" className="aNotSelected"  href="contact.htm">Contact Us</Link>
                   </li>
                 </ul>
               </nav>
