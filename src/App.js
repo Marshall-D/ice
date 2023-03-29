@@ -4,7 +4,10 @@ import Home from './Pages/Home/Home';
 import './AppCss.css';
 import CallForPaper from './Pages/CallForPaper/CallForPaper';
 import Committee from './Pages/Committee/Committee';
+import Venue from './Pages/Venue/Venue';
 import PaperSubmission from './Pages/PaperSubmission/PaperSubmission';
+import Payment from './Pages/Payment/Payment';
+
 
 
 function App() {
@@ -26,7 +29,9 @@ function App() {
         {/* <Home></Home> */}
         {/* <CallForPaper></CallForPaper> */}
         {/* <Committee></Committee> */}
-        <PaperSubmission></PaperSubmission>
+        {/* <PaperSubmission></PaperSubmission> */}
+        {/* <Venue></Venue> */}
+        <Payment></Payment>
       </body>
     );
 }

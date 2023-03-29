@@ -102,7 +102,7 @@ function Header() {
                   </li>
                   <li className='nonActive'>
                     <a className="aNotSelected" 
-                     href="Registrationandfee.htm">Registration and fee</a>
+                     href="Registrationandfee.htm">Registration and Payment</a>
                     {/* <ul>
                       <li className="hidden-md hidden-lg">Home</li>
                       <li>
@@ -129,9 +129,9 @@ function Header() {
                     </ul>
                   </li> */}
 
-                  <li className='nonActive'>
+                  {/* <li className='nonActive'>
                     <a className="aNotSelected"  href="Registrationandfee.htm">Payment</a>{" "}
-                  </li>
+                  </li> */}
 
                   <li className='nonActive'>
                     <a className="aNotSelected"  href="contact.htm">Contact Us</a>
