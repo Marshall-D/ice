@@ -18,37 +18,32 @@ function App() {
       <body className="accueil">
         <ul className="skip">
           <li className="skipLi">
-            <a className="skipA" href="#">Menu</a>
+            <a className="skipA" href="#">
+              Menu
+            </a>
           </li>
           <li className="skipLi">
-            <a className="skipA" href="#">Content</a>
+            <a className="skipA" href="#">
+              Content
+            </a>
           </li>
           <li className="skipLi">
-            <a className="skipA" href="#">Search</a>
+            <a className="skipA" href="#">
+              Search
+            </a>
           </li>
         </ul>
         <Header></Header>
         <Carousel></Carousel>
         <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/call" element={<CallForPaper />} />
-      <Route path="/committee" element={<Committee />} />
-      <Route path="/paperSubmission" element={<PaperSubmission />} />
-      <Route path="/payment" element={<Payment />} />
-      <Route path="/venue" element={<Venue />} />
-      <Route path="/contact" element={<ContactUs />} />
-      </Routes>
-
-
-        {/* <Home></Home> */}
-        {/* <CallForPaper></CallForPaper> */}
-        {/* <Committee></Committee> */}
-        {/* <PaperSubmission></PaperSubmission> */}
-        {/* <Venue></Venue> */}
-        {/* <Payment></Payment> */}
-        {/* <ContactUs></ContactUs> */}
-        
-   
+          <Route path="/" element={<Home />} />
+          <Route path="/call" element={<CallForPaper />} />
+          <Route path="/committee" element={<Committee />} />
+          <Route path="/paperSubmission" element={<PaperSubmission />} />
+          <Route path="/payment" element={<Payment />} />
+          <Route path="/venue" element={<Venue />} />
+          <Route path="/contact" element={<ContactUs />} />
+        </Routes>
       </body>
     );
 }

@@ -22,7 +22,7 @@ function Header() {
             
                 className="logo"
               >
-                <a
+                <Link  to="/"
                 className='logoA' 
                 href="">
                   {" "}
@@ -30,7 +30,7 @@ function Header() {
                     src="https://ice-bm.space/grandeur.jpg"
                     style={{ height: "122px", paddingTop: "10px" }}
                   />
-                </a>
+                </Link>
               </div>
               <nav
                 
@@ -56,8 +56,8 @@ function Header() {
               >
             {/* <Link to="reg" className="burger_menu2">Registration</Link> */}
                 <ul className="collapse2">
-                  <li className="activeHome ">
-                  <Link to="/" className="aSelected">Home</Link>
+                  <li className="nonActive ">
+                  <Link to="/" className="aNotSelected">Home</Link>
                     {/* <a href="ICEBM-2023.htm" className="aSelected">
                       Home
                     </a> */}
