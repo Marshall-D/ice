@@ -1,3 +1,8 @@
+
+import "../../Styles/Committee.css";
+import '../../AppCss.css';
+
+
 function MainCommittee() {
     return (
       <div classNameName="col-md-9">
@@ -16,13 +21,17 @@ function MainCommittee() {
               >
                 <tbody>
                   <tr>
-                    <td valign="top" bgcolor="#D6E1FE" align="center">
+                    <td
+                      className="committee_text"
+                      valign="top"
+                      bgcolor="#D6E1FE"
+                      align="center"
+                    >
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image006.jpg"
                           alt="2016-GALL-1476139321-5.jpg"
-                          width="121"
-                          height="136"
+                          className="committee_img"
                         />
                       </p>
                       <p>
@@ -34,12 +43,16 @@ function MainCommittee() {
                         United States of America
                       </p>{" "}
                     </td>
-                    <td valign="top" bgcolor="#D6E1FE" align="center">
+                    <td
+                      className="committee_text"
+                      valign="top"
+                      bgcolor="#D6E1FE"
+                      align="center"
+                    >
                       <img
                         src="https://icebm.icmbpsgroup.com/Committee_clip_image002.jpg"
                         alt="2016-GALL-1477262538.jpeg"
-                        width="106"
-                        height="157"
+                        className="committee_img"
                       />
                       <br />
                       <br />
@@ -49,13 +62,14 @@ function MainCommittee() {
                       Department of Production Engineering, <br />
                       Guru Nanak Dev Engineering College, Ludhiana, Punjab
                     </td>
-                    <td valign="top" bgcolor="#D6E1FE" align="center">
+                  </tr>
+                  <tr>
+                    <td className="committee_text" valign="top" align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image004.jpg"
                           alt="2016-GALL-1477261188.jpeg"
-                          width="126"
-                          height="144"
+                          className="committee_img"
                         />
                       </p>
                       <p>
@@ -68,15 +82,12 @@ function MainCommittee() {
                         Egypt
                       </p>
                     </td>
-                  </tr>
-                  <tr>
-                    <td valign="top" align="center">
+                    <td className="committee_text" valign="top" align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image010.jpg"
                           alt="2016-GALL-1474436923.jpeg"
-                          width="160"
-                          height="191"
+                          className="committee_img"
                         />{" "}
                       </p>
                       <p>
@@ -88,13 +99,15 @@ function MainCommittee() {
                         Nigeria
                       </p>
                     </td>
-                    <td valign="top" align="center">
+                  </tr>
+                  <tr>
+                    <td  className="committee_text" bgcolor="#D6E1FE" valign="top" align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image008.jpg"
                           alt="2016-GALL-1474417538.jpeg"
-                          width="168"
-                          height="216"
+                          className="committee_img"
+
                         />
                       </p>
                       <p>
@@ -105,14 +118,13 @@ function MainCommittee() {
                         Thailand
                       </p>
                     </td>
-                    <td valign="top" align="center">
+                    <td className="committee_text" bgcolor="#D6E1FE" valign="top" align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image024.jpg"
                           alt="2016-GALL-1465799618.jpeg"
-                          width="145"
-                          height="175"
-                          border="0"
+                          className="committee_img"
+
                         />
                       </p>
                       <p>
@@ -125,14 +137,15 @@ function MainCommittee() {
                       </p>
                     </td>
                   </tr>
+
                   <tr>
-                    <td valign="top" bgcolor="#D6E1FE" align="center">
+                    <td className="committee_text" valign="top"  align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image016.jpg"
                           alt="2016-GALL-1478203980-IMG_5699.JPG"
-                          width="133"
-                          height="169"
+                          className="committee_img"
+
                         />
                       </p>
                       <p>
@@ -144,14 +157,13 @@ function MainCommittee() {
                         South Africa
                       </p>
                     </td>
-                    <td valign="top" bgcolor="#D6E1FE" align="center">
+                    <td className="committee_text" valign="top"  align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image026.jpg"
                           alt="2016-GALL-1466461711.jpeg"
-                          width="130"
-                          height="154"
-                          border="0"
+                          className="committee_img"
+
                         />
                       </p>
                       <p>
@@ -160,13 +172,16 @@ function MainCommittee() {
                         ANADOLU UNIVERSITY, Turkey
                       </p>
                     </td>
-                    <td valign="top" bgcolor="#D6E1FE" align="center">
+                  </tr>
+
+                  <tr>
+                    <td className="committee_text" valign="top" bgcolor="#D6E1FE" align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image012.jpg"
                           alt="2016-GALL-1473370105.jpeg"
-                          width="154"
-                          height="182"
+                          className="committee_img"
+
                         />{" "}
                       </p>
                       <p>
@@ -178,16 +193,13 @@ function MainCommittee() {
                       </p>
                       <p></p>
                     </td>
-                  </tr>
-                  <tr>
-                    <td valign="top" align="center">
+                    <td  className="committee_text" valign="top" bgcolor="#D6E1FE" align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image022.jpg"
                           alt="2016-GALL-1469257352.jpeg"
-                          width="145"
-                          height="179"
-                          border="0"
+                          className="committee_img"
+
                         />
                       </p>
                       <p>
@@ -198,14 +210,15 @@ function MainCommittee() {
                         Turkey
                       </p>
                     </td>
-                    <td valign="top" align="center">
+                  </tr>
+                  <tr>
+                    <td className="committee_text" valign="top" align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image020.jpg"
                           alt="http://theiier.org/mentors/Dr.-IRAJ-1477568371.jpeg"
-                          width="162"
-                          height="205"
-                          border="0"
+                          className="committee_img"
+
                         />
                       </p>
                       <p>
@@ -218,13 +231,13 @@ function MainCommittee() {
                         Wales,&nbsp;UK&nbsp;
                       </p>
                     </td>
-                    <td valign="top" align="center">
+                    <td className="committee_text" valign="top" align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image018.jpg"
                           alt="http://theiier.org/mentors/Assoc.-IRAJ-1417500461.jpeg"
-                          width="133"
-                          height="185"
+                          className="committee_img"
+
                         />
                       </p>
                       <p>
@@ -238,15 +251,15 @@ function MainCommittee() {
                       </p>
                     </td>
                   </tr>
+
                   <tr>
-                    <td valign="top" bgcolor="#D6E1FE" align="center">
+                    <td className="committee_text" valign="top" bgcolor="#D6E1FE" align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image034.jpg"
                           alt="1460324054.jpeg"
-                          width="130"
-                          height="152"
-                          border="0"
+                          className="committee_img"
+
                         />
                       </p>
                       <p>
@@ -260,14 +273,13 @@ function MainCommittee() {
                         Jordan
                       </p>
                     </td>
-                    <td valign="top" bgcolor="#D6E1FE" align="center">
+                    <td className="committee_text" valign="top" bgcolor="#D6E1FE" align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image032.jpg"
                           alt="2016-GALL-1464035204.jpeg"
-                          width="132"
-                          height="146"
-                          border="0"
+                          className="committee_img"
+
                         />
                       </p>
                       <p>
@@ -281,14 +293,15 @@ function MainCommittee() {
                         The International Academic Forum (Nagoya, Japan)
                       </p>
                     </td>
-                    <td valign="top" bgcolor="#D6E1FE" align="center">
+                  </tr>
+                  <tr>
+                    <td className="committee_text" valign="top"  align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image030.jpg"
                           alt="2016-GALL-1466112857.jpeg"
-                          width="122"
-                          height="155"
-                          border="0"
+                          className="committee_img"
+
                         />
                       </p>
                       <p>
@@ -303,15 +316,13 @@ function MainCommittee() {
                         United Arab Emirates
                       </p>{" "}
                     </td>
-                  </tr>
-                  <tr>
-                    <td valign="top" align="center">
+
+                    <td className="committee_text" valign="top" align="center">
                       <p>
                         <img
                           src="https://icebm.icmbpsgroup.com/Committee_clip_image028.jpg"
-                          width="111"
-                          height="123"
-                          border="0"
+                          className="committee_img"
+
                         />
                       </p>
                       <p>
@@ -325,12 +336,6 @@ function MainCommittee() {
                         SVS College of Engineering, Arasampalayam, Coimbatore,
                         Tamilnadu.
                       </p>
-                    </td>
-                    <td valign="top" align="center">
-                      <p>&nbsp;</p>
-                    </td>
-                    <td valign="top" align="center">
-                      <p>&nbsp;</p>{" "}
                     </td>
                   </tr>
                 </tbody>

@@ -11,7 +11,9 @@ function Home() {
         
         style={{ paddingBottom: "25px", position: "relative" }}
       >
-        <div className="row">
+        <div className="row" 
+         style={{paddingLeft:"20px",
+         paddingRight:"20px"}}>
           <section
             role="main"
             className="contentCol"

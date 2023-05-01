@@ -2,10 +2,10 @@ import '../../AppCss.css';
 
 function HomeTable() {
     return (
-          <table className="table" style={{width:"100%", cellspacing:"0", cellpadding:"0"}}>
+          <table className="table" style={{width:"30px", cellspacing:"0", cellpadding:"0"}}>
         <tbody>
           <tr>
-            <td className="td" style={{paddingRight:"20px", verticalAlign:"top"}}>
+            <td className="td" style={{paddingRight:"10px", verticalAlign:"top"}}>
               {/* <img src="https://ice-bm.space/calendar1.jpg" 
               className='age'         
 

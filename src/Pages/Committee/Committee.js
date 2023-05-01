@@ -5,7 +5,9 @@ import MainCommittee from './MainCommittee';
 function Committee() {
   return (
     <div className='container'>
-      <div className='row'>
+      <div className='row' 
+      style={{paddingLeft:"20px",
+      paddingRight:"20px"}}>
         <section className='col-12'>
           <div className='row2'>
             <MainCommittee></MainCommittee>

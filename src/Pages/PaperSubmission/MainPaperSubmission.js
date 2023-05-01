@@ -1,3 +1,4 @@
+import "../../Styles/Home.css";
 
 function MainPaperSubmission() {
     return (
@@ -23,23 +24,26 @@ function MainPaperSubmission() {
             <p>
               <img
                 src="https://dk-media.s3.amazonaws.com/media/1nppi/images/23435103/huge/11.jpg"
-                style={{height: "auto", width: "303px"}}
+                className="age"
               />
             </p>
             <p>
-              <img src="https://dk-media.s3.amazonaws.com/media/1nppi/images/23435104/huge/13.jpg" />
+              <img
+                src="https://dk-media.s3.amazonaws.com/media/1nppi/images/23435104/huge/13.jpg"
+                className="age"
+              />
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp;&nbsp;
             </p>
             <p>
               <img
                 src="https://dk-media.s3.amazonaws.com/media/1nppi/images/23435125/huge/bbb.jpg"
-                style={{height: "auto", width: "452px"}}
+                className="age"
               />
             </p>
             <p>
               <strong>
-                <span style={{fontSize: "1.4em"}}>Visa</span>
+                <span style={{ fontSize: "1.4em" }}>Visa</span>
               </strong>
             </p>
             <p>
@@ -81,7 +85,7 @@ function MainPaperSubmission() {
             <p>
               <img
                 src="https://dk-media.s3.amazonaws.com/media/1nppi/images/23435168/huge/tranait.jpg"
-                style={{height: "auto", width: "470px"}}
+                className="age"
               />
             </p>
             <p>
@@ -97,7 +101,7 @@ function MainPaperSubmission() {
             <p>
               <img
                 src="https://dk-media.s3.amazonaws.com/media/1nppi/images/23435167/huge/yyc.jpg"
-                style={{height: "auto", width: "471px"}}
+                className="age"
               />
             </p>
             <p>
@@ -134,12 +138,12 @@ function MainPaperSubmission() {
             <p>
               <img
                 src="https://dk-media.s3.amazonaws.com/media/1nppi/images/23435269/huge/197066576.jpg"
-                style={{height: "auto",width: "252px"}}
+                className="age"
               />
               &nbsp; &nbsp; &nbsp;&nbsp;
               <img
                 src="https://dk-media.s3.amazonaws.com/media/1nppi/images/23435270/huge/sandddy.jpg"
-                style={{fontSize: "12px", fontFamily: "Arial, Helvetica, sans-serif", width: "284px", height: "auto"}}
+                className="age"
               />
             </p>
             <p>

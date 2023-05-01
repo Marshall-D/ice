@@ -29,6 +29,7 @@ function Header() {
               <div
                 style={{
                   paddingLeft: "20px",
+                  paddingBottom: "20px",
                   display: "flex",
                   alignItems: "center",
                   height: "100%",
@@ -41,13 +42,14 @@ function Header() {
               <div
                 style={{
                   paddingLeft: "20px",
+                  paddingBottom: "20px",
                   display: "flex",
                   alignItems: "center",
                   height: "100%",
                 }}
                 onClick={toggleSide}
               >
-                <MdClose color="color: #a49588" fontSize="2em" />
+                <MdClose color="red" fontSize="2em" />
               </div>
             )}
             <div></div>

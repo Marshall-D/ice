@@ -9,9 +9,10 @@ function Mobile() {
             <ul className="mobile_menu_ul">
               <li className="mobile_menu_title">
                 <div style={{ padding: "15px" }}>
-                  Canada International Conference On Engineering and Sciences
+                  International Conference on Education, Business &amp;
+                  Management - ICEBM 2023.{" "}
                   <span className="mobile_menu_title_span">
-                    CICES 2023 |May 21 -25, 2023 | Calgary, Canada
+                    ICEBM 2023 |22nd - 26th May 2023| Calgary, Canada
                   </span>
                 </div>
               </li>
@@ -22,32 +23,35 @@ function Mobile() {
               </li>
               <li className="mobile_menu_li">
                 <Link to="call" className="mobile_menu_a">
-                  Call For Exhibitors
+                  Call For Paper
+                </Link>
+              </li>
+
+              <li className="mobile_menu_li">
+                <Link to="committee" className="mobile_menu_a">
+                  Committee
                 </Link>
               </li>
               <li className="mobile_menu_li">
-                <Link to="reg" className="mobile_menu_a">
-                  Registration
+                <Link to="paperSubmission" className="mobile_menu_a">
+                  Paper Submisison
+                </Link>
+              </li>
+           
+              <li className="mobile_menu_li">
+                <Link to="venue" className="mobile_menu_a">
+                  Venue
                 </Link>
               </li>
               <li className="mobile_menu_li">
-                <Link to="travel" className="mobile_menu_a">
-                  Travel and Hotel
+                <Link to="payment" className="mobile_menu_a">
+                  Registration and Payment
                 </Link>
               </li>
-              <li className="mobile_menu_li">
-                <Link to="speakers" className="mobile_menu_a">
-                  Speakers
-                </Link>
-              </li>
-              <li className="mobile_menu_li">
-                <Link to="Visa" className="mobile_menu_a">
-                  Canada Visa
-                </Link>
-              </li>
+
               <li className="mobile_menu_li">
                 <Link to="contact" className="mobile_menu_a">
-                  Contact us
+                  Contact Us
                 </Link>
               </li>
             </ul>
