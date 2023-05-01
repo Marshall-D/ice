@@ -6,10 +6,13 @@ function HomeTable() {
         <tbody>
           <tr>
             <td className="td" style={{paddingRight:"20px", verticalAlign:"top"}}>
-              <img src="https://ice-bm.space/calendar1.jpg" width="226" height="144" />
+              {/* <img src="https://ice-bm.space/calendar1.jpg" 
+              className='age'         
+
+              /> */}
             </td>
             <td>
-              <table className="table" width="90%" cellspacing="0" cellpadding="10" border="1">
+              <table className="table" width="auto" cellspacing="0" cellpadding="10" border="1">
                 <tbody style={{boxSizing: "border-box"}}>
                   <tr>
                     <td className="td"  style={{paddingLeft:"10px"}}>

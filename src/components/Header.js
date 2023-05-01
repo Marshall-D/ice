@@ -1,10 +1,20 @@
 import '../AppCss.css';
 import { Link, NavLink } from 'react-router-dom';
+import Navigation from './Navigation';
+import React, {useContext} from 'react'
+import { AuthContext } from '../Context/Context';
+import Mobile from "./Mobile";
+import {ImMenu} from "react-icons/im"
+import {MdClose} from "react-icons/md"
+
+
 
 
 function Header() {
+  const { showSide, toggleSide} = useContext(AuthContext)
+
     return (
-      <header >
+      <header>
         <div className="topHeader">
           <div className="container">
             <div className="row">
@@ -13,237 +23,70 @@ function Header() {
             </div>
           </div>
         </div>
+        <div className="header_extra_2">
+
+        {!showSide ? (
+              <div
+                style={{
+                  paddingLeft: "20px",
+                  display: "flex",
+                  alignItems: "center",
+                  height: "100%",
+                }}
+                onClick={toggleSide}
+              >
+                <ImMenu color="red" fontSize="2em" />
+              </div>
+            ) : (
+              <div
+                style={{
+                  paddingLeft: "20px",
+                  display: "flex",
+                  alignItems: "center",
+                  height: "100%",
+                }}
+                onClick={toggleSide}
+              >
+                <MdClose color="color: #a49588" fontSize="2em" />
+              </div>
+            )}
+            <div></div>
+          </div>
+          {showSide && (
+            <div className="burger" onClick={toggleSide}>
+              <Mobile />
+            </div>
+          )}
+
+
 
         <div className="nav">
           <div className="container">
             <div className="row">
-              <div
-                role="banner"
-            
-                className="logo"
-              >
-                <Link  to="/"
-                className='logoA' 
-                href="">
+              <div role="banner" className="logo">
+                <Link to="/" className="logoA" href="">
                   {" "}
                   <img
                     src="https://ice-bm.space/grandeur.jpg"
-                    style={{ height: "122px", paddingTop: "10px" }}
+                    style={{ width: "50", height: "60px", paddingTop: "10px" }}
                   />
                 </Link>
               </div>
-              <nav
-                
-                className="profilsMenu"
-              >
+              <nav className="profilsMenu">
                 <ul className="collapse">
                   <a
-                  className='collapseA'
+                    className="collapseA"
                     href="https://form.jotform.com/222753456046457"
                     target="_blank"
                   >
                     <img
                       src="https://ice-bm.space/Download-PDF-Button.png"
-                      style={{ height: "60px" }}
+                      style={{ width: "50", height: "30px" }}
                     />
                   </a>
                 </ul>
               </nav>
-              <nav
-                role="navigation"
-                
-                className="mainmenu"
-              >
-            {/* <Link to="reg" className="burger_menu2">Registration</Link> */}
-                <ul className="collapse2">
-                  <li className="nonActive ">
-                  <Link to="/" className="aNotSelected">Home</Link>
-                    {/* <a href="ICEBM-2023.htm" className="aSelected">
-                      Home
-                    </a> */}
-                  </li>
-
-                  <li className='nonActive'>
-                  <Link to="call" className="aNotSelected">Call For Paper</Link>
-
-                    {/* <a className="aNotSelected" 
-                    href="callforpaperr.htm">Call For Paper</a> */}
-                    {/* <ul>
-                      <li className="ICEBM-2023.htm">Home</li>
-                      <li>
-                        <a href="#">Dauphine Facts &amp; Figures</a>
-                      </li>
-                    </ul> */}
-                  </li>
-                  <li className='nonActive'>
-                    <Link to="committee" className="aNotSelected" 
-                     href="committee.htm">Committee</Link>
-                    {/* <ul>
-                      <li className="hidden-md hidden-lg">Home</li>
-                      <li>
-                        <a href="#">Dauphine Facts &amp; Figures</a>
-                      </li>
-                    </ul> */}
-                  </li>
-                  <li className='nonActive'>
-                    <Link to="paperSubmission" className="aNotSelected" 
-                    href="papersubmission.htm">Paper Submisison</Link>
-                    {/* <ul>
-                      <li className="hidden-md hidden-lg">Home</li>
-                      <li>
-                        <a href="#">Dauphine Facts &amp; Figures</a>
-                      </li>
-                    </ul> */}
-                  </li>
-
-                  <li className='nonActive'>
-                    <Link to="venue" className="aNotSelected"  
-                    href="venue.htm">Venue</Link>
-                    {/* <ul>
-                      <li className="hidden-md hidden-lg">Home</li>
-                      <li>
-                        <a href="#">Dauphine Facts &amp; Figures</a>
-                      </li>
-                    </ul> */}
-                  </li>
-                  <li className='nonActive'>
-                    <Link to="payment" className="aNotSelected" 
-                     href="Registrationandfee.htm">Registration and Payment</Link>
-                    {/* <ul>
-                      <li className="hidden-md hidden-lg">Home</li>
-                      <li>
-                        <a href="#">Housing services</a>
-                      </li>
-                    </ul> */}
-                    {/* <ul>
-                      <li className="hidden-md hidden-lg">Home</li>
-                      <li>
-                        <a href="#">Research </a>
-                      </li>
-                    </ul> */}
-                  </li>
-                  {/* <li>
-                    <a href="#">Gallery</a>
-                    <ul>
-                      <li className="hidden-md hidden-lg">Home</li>
-                      <li>
-                        <a href="#">International Team</a>
-                      </li>
-                      <li>
-                        <a href="#">Dauphine International</a>
-                      </li>
-                    </ul>
-                  </li> */}
-
-                  {/* <li className='nonActive'>
-                    <a className="aNotSelected"  href="Registrationandfee.htm">Payment</a>{" "}
-                  </li> */}
-
-                  <li className='nonActive'>
-                    <Link to="contact" className="aNotSelected"  href="contact.htm">Contact Us</Link>
-                  </li>
-                </ul>
-              </nav>
-              {/* <div className="visible-xs button-nav">
-                {" "}
-                <div className="col-xs-4">
-                  {" "}
-                  <button
-                    type="button"
-                    className="navbar-toggle collapsed"
-                    data-toggle="collapse"
-                    data-target="#mainMenu > ul"
-                  >
-                    {" "}
-                    <span className="title">
-                      <span>About</span> Dauphine
-                    </span>{" "}
-                    <span className="icon-bar"></span>{" "}
-                    <span className="icon-bar"></span>{" "}
-                    <span className="icon-bar"></span>{" "}
-                  </button>{" "}
-                </div>{" "}
-                <div className="col-xs-4">
-                  {" "}
-                  <button
-                    type="button"
-                    className="navbar-toggle collapsed"
-                    data-toggle="collapse"
-                    data-target="#profilsMenu > ul"
-                  >
-                    {" "}
-                    <span className="title">
-                      <span>You</span> are...
-                    </span>{" "}
-                    <span className="icon-profil"></span>{" "}
-                  </button>{" "}
-                </div>{" "}
-                <div className="col-xs-4">
-                  {" "}
-                  <button
-                    type="button"
-                    className="navbar-toggle collapsed accessButton"
-                    data-toggle="collapse"
-                    data-target=".accessLinks > ul"
-                  >
-                    {" "}
-                    <span className="title">
-                      <span>Direct</span> access
-                    </span>{" "}
-                    <span className="icon-access"></span>{" "}
-                  </button>{" "}
-                </div>{" "}
-              </div>
-              <div className="visible-xs button-nav">
-                {" "}
-                <div className="col-xs-4">
-                  {" "}
-                  <button
-                    type="button"
-                    className="navbar-toggle collapsed"
-                    data-toggle="collapse"
-                    data-target="#mainMenu > ul"
-                  >
-                    {" "}
-                    <span className="title">
-                      <span>About</span> Dauphine
-                    </span>{" "}
-                    <span className="icon-bar"></span>{" "}
-                    <span className="icon-bar"></span>{" "}
-                    <span className="icon-bar"></span>{" "}
-                  </button>{" "}
-                </div>{" "}
-                <div className="col-xs-4">
-                  {" "}
-                  <button
-                    type="button"
-                    className="navbar-toggle collapsed"
-                    data-toggle="collapse"
-                    data-target="#profilsMenu > ul"
-                  >
-                    {" "}
-                    <span className="title">
-                      <span>You</span> are...
-                    </span>{" "}
-                    <span className="icon-profil"></span>{" "}
-                  </button>{" "}
-                </div>{" "}
-                <div className="col-xs-4">
-                  {" "}
-                  <button
-                    type="button"
-                    className="navbar-toggle collapsed accessButton"
-                    data-toggle="collapse"
-                    data-target=".accessLinks > ul"
-                  >
-                    {" "}
-                    <span className="title">
-                      <span>Direct</span> access
-                    </span>{" "}
-                    <span className="icon-access"></span>{" "}
-                  </button>{" "}
-                </div>{" "}
-              </div> */}
+              {/* <Navigation/> */}
             </div>
           </div>
         </div>

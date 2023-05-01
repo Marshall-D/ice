@@ -1,4 +1,4 @@
-import '../AppCss.css';
+import '../Styles/Footer.css';
 
 function App() {
     return (

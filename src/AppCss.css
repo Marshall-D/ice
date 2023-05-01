@@ -61,57 +61,6 @@
 
 }
 
-/** Tablettes */
-@media (min-width: 768px) and (max-width: 991px) {
-  .accueil {
-    width: auto !important;
-    font-size: 0.7em;
-
-  }
-
-.nav {
-
-  width: auto !important;
-
-
-
-}
-
-  
-}
-
-
-/** Mobiles */
-@media (max-width: 767px){
-  /* body {
-    overflow-x: hidden;
-} */
-  .container {
-    width: auto !important;
-}
-.mainmenu{
-  display: table !important;
-  height: auto !important;
-  padding-bottom: 0px;
-  overflow: visible !important;
-  font-family: Oregon;
-  background: rgba(52, 142, 209, 0.38) none repeat scroll 0% 0%;
-}}
-
-/** Desktop */
-@media (min-width: 992px) {
-  .container {
-      width: 980px;
-      width: 70em;
-  }
-  .row2{
-    margin-left: -15px;
-    margin-right: -15px;
-    display:flex; 
-    flex-direction:row;
-  }
-
-}
 
 
 .skip {
@@ -267,6 +216,7 @@
 
 
 
+
 .collapse {
 
   padding: 0;
@@ -384,7 +334,7 @@
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 960px;
+  width: auto;
   margin-top: 10px;
   margin-bottom: 50px;
   padding-bottom: 25px;
@@ -484,50 +434,6 @@
 
 /*  footer *********************************************** */
 
-.footer {
-  box-sizing: border-box;
-  background: #00428f;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 10px 0 20px;
-  width: 100%;
-}
-
-.col-md-4 {
-  box-sizing: border-box;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-
-}
-
-.social {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  height: 50px;
-}
-
-.socialLi{
-  box-sizing: border-box;
-list-style: none;
-display: inline-block;
-height: 100%;
-margin-right: 4px;
-}
-
-.socialA{
-  box-sizing: border-box;
-background: 0 0;
-text-decoration: none;
-color: #43484d;
-display: block;
-height: 100%;
-padding: 0 2px;
-line-height: 10px;
-}
-
 /* /*********** Callfor paper css / */
 
 .col-12{
@@ -547,4 +453,58 @@ margin-bottom: 0;
 }
 .nonActive:hover {
   background-color: rgb(15, 19, 226);
+}
+
+
+
+/** Tablettes */
+@media (min-width: 768px) and (max-width: 991px) {
+  .accueil {
+    width: auto !important;
+    font-size: 0.7em;
+
+  }
+
+.nav {
+
+  width: auto !important;
+
+
+
+}
+
+  
+}
+
+
+/** Mobiles */
+@media (max-width: 767px){
+  /* body {
+    overflow-x: hidden;
+} */
+  .container {
+    width: auto !important;
+}
+.mainmenu{
+  display: table !important;
+  height: auto !important;
+  padding-bottom: 0px;
+  overflow: visible !important;
+  font-family: Oregon;
+  background: rgba(52, 142, 209, 0.38) none repeat scroll 0% 0%;
+}}
+
+/** Desktop */
+@media (min-width: 992px) {
+  .container {
+      width: 980px;
+      width: 70em;
+  }
+  .row2{
+    margin-left: -15px;
+    margin-right: -15px;
+    display:flex; 
+    flex-direction:row;
+  }
+
 }

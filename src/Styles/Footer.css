@@ -1,0 +1,74 @@
+.footer_wrapper_1 {
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    height: 165px;
+    background-color: #3e2687;
+    width: 100%;
+}
+
+
+
+.content_info {
+    vertical-align: baseline;
+    background-color: #3e2687;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.custom_footer {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #584f47;
+    text-align: center;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+ /* footer code from appcss  */
+
+
+.footer {
+    box-sizing: border-box;
+    background: #00428f;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0 20px;
+    width: 100%;
+  }
+  
+  .col-md-4 {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+  }
+  
+  .social {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+  }
+  
+  .socialLi{
+    box-sizing: border-box;
+  list-style: none;
+  display: inline-block;
+  height: 100%;
+  margin-right: 4px;
+  }
+  
+  .socialA{
+    box-sizing: border-box;
+  background: 0 0;
+  text-decoration: none;
+  color: #43484d;
+  display: block;
+  height: 100%;
+  padding: 0 2px;
+  line-height: 10px;
+  }
+  

@@ -7,10 +7,10 @@ function Carousel() {
         <div className="container">
           <h2
             style={{
-              marginTop: "50px",
-
+              // marginTop: "50px",
+              marginTop:"10px",
               color: "#fff",
-              fontSize: "20px",
+              fontSize: "15px",
               fontFamily:
                 "Lucida Grande, 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif",
               background: "rgba(0, 0, 0, 0.66)",
@@ -36,7 +36,7 @@ function Carousel() {
                 "Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif",
               background: "rgba(255,0,4,1.00)",
               padding: "10px",
-              width: "30%",
+              width: "auto",
               textTransform: "uppercase",
               borderRadius: "20px",
               textAlign: "center",
