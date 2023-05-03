@@ -16,6 +16,35 @@ function Header() {
     return (
       <header>
         <div className="topHeader">
+        {!showSide ? (
+            <div
+              style={{
+                position:"fixed",
+                paddingLeft: "20px",
+                paddingBottom: "20px",
+                display: "flex",
+                alignItems: "center",
+                // height: "100%",
+              }}
+              onClick={toggleSide}
+            >
+              <ImMenu   color="red" fontSize="2em" />
+            </div>
+          ) : (
+            <div
+              style={{
+                position:"fixed",
+                paddingLeft: "20px",
+                paddingBottom: "20px",
+                display: "flex",
+                alignItems: "center",
+                // height: "100%",
+              }}
+              onClick={toggleSide}
+            >
+              <MdClose color="red" fontSize="2em" />
+            </div>
+          )}
           <div className="container">
             <div className="row">
               <div className="col-md-3 "></div>
@@ -24,43 +53,42 @@ function Header() {
           </div>
         </div>
         <div className="header_extra_2">
-
-        {!showSide ? (
-              <div
-                style={{
-                  paddingLeft: "20px",
-                  paddingBottom: "20px",
-                  display: "flex",
-                  alignItems: "center",
-                  height: "100%",
-                }}
-                onClick={toggleSide}
-              >
-                <ImMenu color="red" fontSize="2em" />
-              </div>
-            ) : (
-              <div
-                style={{
-                  paddingLeft: "20px",
-                  paddingBottom: "20px",
-                  display: "flex",
-                  alignItems: "center",
-                  height: "100%",
-                }}
-                onClick={toggleSide}
-              >
-                <MdClose color="red" fontSize="2em" />
-              </div>
-            )}
-            <div></div>
-          </div>
-          {showSide && (
-            <div className="burger" onClick={toggleSide}>
-              <Mobile />
+          {/* {!showSide ? (
+            <div
+              style={{
+                position:"fixed",
+                paddingLeft: "20px",
+                paddingBottom: "20px",
+                display: "flex",
+                alignItems: "center",
+                // height: "100%",
+              }}
+              onClick={toggleSide}
+            >
+              <ImMenu   color="red" fontSize="2em" />
             </div>
-          )}
-
-
+          ) : (
+            <div
+              style={{
+                position:"fixed",
+                paddingLeft: "20px",
+                paddingBottom: "20px",
+                display: "flex",
+                alignItems: "center",
+                // height: "100%",
+              }}
+              onClick={toggleSide}
+            >
+              <MdClose color="red" fontSize="2em" />
+            </div>
+          )} */}
+          <div></div>
+        </div>
+        {showSide && (
+          <div className="burger" onClick={toggleSide}>
+            <Mobile />
+          </div>
+        )}
 
         <div className="nav">
           <div className="container">
@@ -70,7 +98,7 @@ function Header() {
                   {" "}
                   <img
                     src="https://ice-bm.space/grandeur.jpg"
-                    style={{ width: "50", height: "60px", paddingTop: "10px" }}
+                    className="logo_img"
                   />
                 </Link>
               </div>
@@ -83,12 +111,12 @@ function Header() {
                   >
                     <img
                       src="https://ice-bm.space/Download-PDF-Button.png"
-                      style={{ width: "50", height: "30px" }}
+                      className="jotform_img"
                     />
                   </a>
                 </ul>
               </nav>
-              {/* <Navigation/> */}
+              <Navigation />
             </div>
           </div>
         </div>
