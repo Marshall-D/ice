@@ -1,4 +1,7 @@
 import "../../Styles/Home.css";
+import download from "../../images/Download-PDF-Button.png"
+
+
 
 
 function MainPayment() {
@@ -79,7 +82,7 @@ function MainPayment() {
                       target="_blank"
                     >
                       <img
-                        src="https://ice-bm.space/Download-PDF-Button.png"
+                        src={download}
                         className="age"
                       />
                     </a>

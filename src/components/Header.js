@@ -7,6 +7,10 @@ import Mobile from "./Mobile";
 import {ImMenu} from "react-icons/im"
 import {MdClose} from "react-icons/md"
 import TopHeader from './TopHeader';
+import grandeur from "../images/grandeur.jpeg"
+import download from "../images/Download-PDF-Button.png"
+
+
 
 
 
@@ -90,6 +94,7 @@ function Header() {
           <div className="burger" onClick={toggleSide}>
             <Mobile />
           </div>
+
         )}
 
         <div className="nav">
@@ -99,7 +104,7 @@ function Header() {
                 <Link to="/" className="logoA" href="">
                   {" "}
                   <img
-                    src="https://ice-bm.space/grandeur.jpg"
+                    src={grandeur}
                     className="logo_img"
                   />
                 </Link>
@@ -113,7 +118,7 @@ function Header() {
                     target="_blank"
                   >
                     <img
-                      src="https://ice-bm.space/Download-PDF-Button.png"
+                      src={download}
                       className="jotform_img"
                     />
                   </a>

@@ -1,5 +1,11 @@
 import '../AppCss.css';
 
+import pic1 from "../images/2_pic.jpg"
+import pic2 from "../images/5_pic.jpg"
+import pic3 from "../images/7_pic.jpg"
+import pic4 from "../images/8_pic.jpg"
+
+
 function RelatedConference() {
     return (
       <div className="col-md-3_2 ">
@@ -49,22 +55,22 @@ function RelatedConference() {
             <tbody style={{ boxSizing: "border-box" }}>
               <tr>
                 <td align="center">
-                  <img src="https://ice-bm.space/2_pic.jpg" />
+                  <img src={pic1} />
                 </td>
               </tr>
               <tr>
                 <td align="center">
-                  <img src="https://ice-bm.space/5_pic.jpg" />
+                <img src={pic2} />
                 </td>
               </tr>
               <tr>
                 <td align="center">
-                  <img src="https://ice-bm.space/8_pic.jpg" />
+                <img src={pic3} />
                 </td>
               </tr>
               <tr>
                 <td align="center">
-                  <img src="https://ice-bm.space/7_pic.jpg" />
+                <img src={pic4} />
                 </td>
               </tr>
               <tr>

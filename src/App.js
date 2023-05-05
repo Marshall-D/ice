@@ -1,7 +1,7 @@
 import Header from './components/Header';
 import Carousel from './components/Carousel';
 import Home from './Pages/Home/Home';
-// import './AppCss.css';
+import './AppCss.css';
 import CallForPaper from './Pages/CallForPaper/CallForPaper';
 import Committee from './Pages/Committee/Committee';
 import Venue from './Pages/Venue/Venue';

@@ -21,30 +21,29 @@ function Navigation() {
      
         </li>
         <li className='nonActive'>
-          <Link to="committee" className="aNotSelected" 
-           href="committee.htm">Committee</Link>
+          <Link to="committee" className="aNotSelected" >Committee</Link>
         
         </li>
         <li className='nonActive'>
           <Link to="paperSubmission" className="aNotSelected" 
-          href="papersubmission.htm">Paper Submisison</Link>
+        >Paper Submisison</Link>
       
         </li>
 
         <li className='nonActive'>
           <Link to="venue" className="aNotSelected"  
-          href="venue.htm">Venue</Link>
+        >Venue</Link>
         
         </li>
         <li className='nonActive'>
           <Link to="payment" className="aNotSelected" 
-           href="Registrationandfee.htm">Registration and Payment</Link>
+          >Registration and Payment</Link>
        
         </li>
         
 
         <li className='nonActive'>
-          <Link to="contact" className="aNotSelected"  href="contact.htm">Contact Us</Link>
+          <Link to="contact" className="aNotSelected"  >Contact Us</Link>
         </li>
       </ul>
     </nav>
