@@ -10,7 +10,7 @@ function MainPaperSubmission() {
             <h3 itemprop="name">
               <strong>
                 Submit Paper Via Email:{" "}
-                <font color="red">inquiry@blader.com</font>
+                <font color="red">noreplyicebm@gmail.com</font>
               </strong>
             </h3>
 
@@ -105,7 +105,7 @@ function MainPaperSubmission() {
               />
             </p>
             <p>
-              Email you travel dates to inquiry@blader.com Travel details will
+              Email you travel dates to noreplyicebm@gmail.com Travel details will
               need to be emailed to us not later than 48 hrs before arrival.
             </p>
             <p>

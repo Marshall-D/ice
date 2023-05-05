@@ -32,7 +32,7 @@ function CallForPaper() {
 
                       <p >
                         send paper abstract to{" "}
-                        <strong>inquiry@blader.com</strong>
+                        <strong>noreplyicebm@gmail.com</strong>
                       </p>
                       <CfpTable></CfpTable>
                     </div>

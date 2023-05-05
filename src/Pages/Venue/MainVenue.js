@@ -99,7 +99,7 @@ return (
           />
         </p>
         <p>
-          Email you travel dates to inquiry@blader.com Travel details will need
+          Email you travel dates to noreplyicebm@gmail.com Travel details will need
           to be emailed to us not later than 48 hrs before arrival.
         </p>
         <p>

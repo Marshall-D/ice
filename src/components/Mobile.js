@@ -12,7 +12,7 @@ function Mobile() {
                   International Conference on Education, Business &amp;
                   Management - ICEBM 2023.{" "}
                   <span className="mobile_menu_title_span">
-                    ICEBM 2023 |22nd - 26th May 2023| Calgary, Canada
+                    ICEBM 2023 |22nd - 26th August 2023| Calgary, Canada
                   </span>
                 </div>
               </li>

@@ -7,7 +7,7 @@ import '../../AppCss.css';
 function Home() {
     return (
       <div
-        className="main"
+        className="container"
         
         style={{ paddingBottom: "25px", position: "relative" }}
       >
@@ -32,7 +32,7 @@ function Home() {
                       </strong>
                       <strong> - ICEBM 2023</strong>
                       <strong>
-                        . It will be held during 22nd - 26th May 2023
+                        . It will be held during 22nd - 26th August 2023
                         &nbsp;Canada. ICEBM 2023
                       </strong>
                       <strong> </strong>is being organized by Beyond Banking
@@ -86,7 +86,7 @@ function Home() {
                       consideration anywhere in other conferences/journal) in
                       (doc only) format via email to{" "}
                       <strong>
-                        <u>inquiry@blader.com</u>
+                        <u>noreplyicebm@gmail.com</u>
                       </strong>
                       <hr></hr>
                       <hr></hr>

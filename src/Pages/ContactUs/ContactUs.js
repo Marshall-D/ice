@@ -28,11 +28,11 @@ function Payment() {
                     <p>
                       <em>For any Complaint or query</em>
                       <br />
-                      Mail us on: inquiry@blader.com.
+                      Mail us on: noreplyicebm@gmail.com
                     </p>
 
                     <p>
-                      <em>WhatsApp:</em>+1 343 800 2457.
+                      <em>WhatsApp:</em>+1 (256) 398‑1089
                     </p>
 
                     <br />

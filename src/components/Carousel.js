@@ -28,23 +28,9 @@ function Carousel() {
           </h2>
 
           <h3
-            style={{
-              marginTop: "15px",
-              color: "#fff",
-              fontSize: "18px",
-              fontFamily:
-                "Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif",
-              background: "rgba(255,0,4,1.00)",
-              padding: "10px",
-              width: "auto",
-              textTransform: "uppercase",
-              borderRadius: "20px",
-              textAlign: "center",
-              marginLeft: "auto",
-              marginRight: "auto",
-            }}
+            className='carousel_text'
           >
-            22nd - 26th May, 2023, Calgary, Canada
+            22nd - 26th August, 2023, Calgary, Canada
           </h3>
         </div>
       </div>

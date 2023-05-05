@@ -74,7 +74,8 @@ function MainPayment() {
                     <br />
                     <br />
                     <a
-                      href="https://form.jotform.com/222753456046457"
+                      href="
+                      https://form.jotform.com/230584044583558"
                       target="_blank"
                     >
                       <img
@@ -182,7 +183,7 @@ function MainPayment() {
               />
             </p>
             <p>
-              Email you travel dates to inquiry@blader.com Travel details will
+              Email you travel dates to noreplyicebm@gmail.com Travel details will
               need to be emailed to us not later than 48 hrs before arrival.
             </p>
             <p>

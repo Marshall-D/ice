@@ -19,7 +19,7 @@ function HomeTable() {
                       <p>Abstract/ Full Paper submission deadline</p>
                     </td>
                     <td style={{paddingLeft:"10px"}}>
-                      <p>03th May 2023 </p>
+                      <p>03rd August 2023 </p>
                     </td>
                   </tr>
                   <tr>
@@ -35,7 +35,7 @@ function HomeTable() {
                       <p>Final date of Registration</p>
                     </td>
                     <td style={{paddingLeft:"10px"}}>
-                      <p>07th May 2023 </p>
+                      <p>05th August 2023 </p>
                     </td>
                   </tr>
                   <tr>
@@ -43,7 +43,7 @@ function HomeTable() {
                       <p>Conference Date</p>
                     </td>
                     <td style={{paddingLeft:"10px"}}>
-                      <p>22nd - 26th May 2023 </p>
+                      <p>22nd - 26th August 2023 </p>
                     </td>
                   </tr>
                 </tbody>
@@ -56,7 +56,7 @@ function HomeTable() {
                 submission date.
                 <br />
                 ** If you are not getting any reply then, you can mail us to
-                inquiry@blader.com. Mention your submitted Paper Code in the
+                noreplyicebm@gmail.com Mention your submitted Paper Code in the
                 mail.
               </p>
             </td>
